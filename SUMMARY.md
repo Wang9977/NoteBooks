@@ -6,7 +6,8 @@
 ## Git
 
 * [git指令出现的问题](git/git-bug.md)
-* [git 常用指令](git/git-shell.md)
+* [Git 命令](git/git-shell.md)
+* [Git 简介](git/git-jian-jie.md)
 
 ## BIG-DATA
 
@@ -16,6 +17,7 @@
 ## CSS
 
 * [CSS优先级](css/css-weight.md)
+* [Grid布局](css/grid.md)
 
 ## JS
 

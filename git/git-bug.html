@@ -736,7 +736,7 @@
                                 <section class="normal markdown-section">
                                 
                                 <h1 id="git&#x6307;&#x4EE4;&#x51FA;&#x73B0;&#x7684;&#x95EE;&#x9898;">git&#x6307;&#x4EE4;&#x51FA;&#x73B0;&#x7684;&#x95EE;&#x9898;</h1>
-<h3 id="&#x6587;&#x4EF6;&#x8FC7;&#x5927;">&#x6587;&#x4EF6;&#x8FC7;&#x5927;</h3>
+<h2 id="&#x6587;&#x4EF6;&#x8FC7;&#x5927;">&#x6587;&#x4EF6;&#x8FC7;&#x5927;</h2>
 <pre><code class="lang-text">client_loop: send disconnect: Connection reset by peer
 </code></pre>
 <pre><code class="lang-text">fatal: sha1 file &apos;&lt;stdout&gt;&apos; write error: Broken pipe
@@ -760,6 +760,18 @@ fatal: The remote end hung up unexpectedly
 </ol>
 </li>
 </ul>
+<h2 id="git-&#x95EE;&#x9898;">git &#x95EE;&#x9898;</h2>
+<pre><code class="lang-shell">ssh -T git@github.com
+// You&apos;ve successfully authenticated, but GitHub does not provide shell access.
+</code></pre>
+<p>&#x89E3;&#x51B3;&#xFF1A;</p>
+<p>&#x5728;&#x4F7F;&#x7528;ssh&#x52A0;&#x516C;&#x94A5;&#x8BA4;&#x8BC1;&#x65F6;&#x4F1A;&#x8F93;&#x5165; ssh -T Github.com&#xFF0C;&#x8BA4;&#x8BC1;&#x6210;&#x529F;&#x540E;&#x4F1A;&#x8F93;&#x51FA;&#x5982;&#x4E0B;Log&#x3002;
+&#x201C;but GitHub does not provide shell access &#x201D;&#x8FD9;&#x53E5;&#x8BDD;&#x7684;&#x610F;&#x601D;&#x662F;&#xFF0C;GitHub&#x4E0D;&#x63D0;&#x4F9B;shell&#xFF08;ssh&#xFF09;&#x8BBF;&#x95EE;/&#x63A5;&#x5165;&#x6743;&#x9650;&#x3002;
+ssh -T&#x9009;&#x9879;&#x7684;&#x610F;&#x601D;&#x4E3A;&#xFF0C;&#x4E0D;&#x5206;&#x914D;&#x4F2A;&#x7EC8;&#x7AEF;&#x3002;
+&#x5F53;&#x4F60;&#x5728;&#x4F7F;&#x7528;ssh&#x534F;&#x8BAE;&#x8FDE;&#x63A5;&#x5230;&#x81EA;&#x5DF1;&#x6216;&#x8005;&#x5176;&#x4ED6;&#x670D;&#x52A1;&#x5668;&#x65F6;&#xFF0C;&#x672C;&#x5730;&#x7EC8;&#x7AEF;&#x4F1A;&#x663E;&#x793A;&#x547D;&#x4EE4;&#x63D0;&#x793A;&#x7B26;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5728;&#x4E0A;&#x9762;&#x64CD;&#x4F5C;&#x8F93;&#x5165;&#x547D;&#x4EE4;ls&#x7B49;&#x3002;
+&#x7ED3;&#x5408;&#x4E0A;&#x9762;&#x51E0;&#x70B9;&#xFF0C;&#x8FD9;&#x53E5;&#x8BDD;&#x7684;&#x610F;&#x601D;&#x5373;&#x4E3A;&#x4F60;&#x65E0;&#x6CD5;&#x4F7F;&#x7528;ssh&#x534F;&#x8BAE;&#x76F4;&#x63A5;&#x767B;&#x5F55;github&#xFF0C;&#x5728;github&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x5EFA;&#x7ACB;&#x4E00;&#x4E2A;&#x4F2A;&#x7EC8;&#x7AEF;&#xFF0C;&#x5E76;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#x3002;
+&#x6240;&#x4EE5;&#xFF0C;&#x8FD9;&#x53E5;&#x63D0;&#x793A;&#x5E76;&#x4E0D;&#x662F;&#x4E00;&#x4E2A;&#x9519;&#x8BEF;&#xFF0C;&#x800C;&#x662F;github&#x8F93;&#x51FA;&#x7684;&#x4E00;&#x53E5;&#x63D0;&#x793A;&#x8BED;&#x3002;
+&#x540C;&#x6837;&#x4F60;&#x53EF;&#x4EE5;&#x5728;&#x672C;&#x5730;&#x4F7F;&#x7528;ssh&#x534F;&#x8BAE;&#x8FDB;&#x884C;git&#x76F8;&#x5173;&#x64CD;&#x4F5C;&#xFF0C;&#x5E76;&#x63D0;&#x4EA4;&#x5230;github&#xFF0C;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x5F71;&#x54CD;&#x3002;</p>
 <h2 id="&#x53C2;&#x8003;"><strong>&#x53C2;&#x8003;</strong></h2>
 <p><a href="https://zhuanlan.zhihu.com/p/40634410" target="_blank">&#x77E5;&#x4E4E;</a></p>
 
@@ -805,7 +817,7 @@ fatal: The remote end hung up unexpectedly
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"git指令出现的问题","level":"2.1","depth":1,"next":{"title":"Git 命令","level":"2.2","depth":1,"path":"git/git-shell.md","ref":"git/git-shell.md","articles":[]},"previous":{"title":"chrome跨域","level":"1.2","depth":1,"path":"chrome-kua-yu.md","ref":"chrome-kua-yu.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"git/git-bug.md","mtime":"2021-07-13T03:15:13.684Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-07-13T06:51:15.446Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"git指令出现的问题","level":"2.1","depth":1,"next":{"title":"Git 命令","level":"2.2","depth":1,"path":"git/git-shell.md","ref":"git/git-shell.md","articles":[]},"previous":{"title":"chrome跨域","level":"1.2","depth":1,"path":"chrome-kua-yu.md","ref":"chrome-kua-yu.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"git/git-bug.md","mtime":"2021-07-13T07:11:50.129Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-07-13T07:16:51.226Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -813,6 +825,10 @@ fatal: The remote end hung up unexpectedly
         
     <script src="../gitbook/gitbook.js"></script>
     <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
     
         
         <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>

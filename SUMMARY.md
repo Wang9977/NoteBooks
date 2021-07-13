@@ -16,8 +16,8 @@
 
 ## CSS
 
-* [CSS优先级](css/css-weight.md)
 * [layout-oneline](css/layout-oneline.md)
+* [CSS优先级](css/css-weight.md)
 * [Grid布局](css/grid.md)
 
 ## JS
@@ -59,7 +59,7 @@
 * [Rollup](fe-tools/rollup.md)
 * [vite](fe-tools/vite.md)
 * [vite项目 配置GitHub页面](fe-tools/vite-xiang-mu-pei-zhi-github-ye-mian.md)
-* [index](fe-tools/untitled.md)
+* [发布npm包](fe-tools/untitled.md)
 
 ---
 

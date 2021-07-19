@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>大数据-黑马 · GitBook</title>
+        <title>layout-oneline · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../css/layout-oneline.html" />
+    <link rel="next" href="css-weight.html" />
     
     
-    <link rel="prev" href="bigdata-shangguigu.html" />
+    <link rel="prev" href="../big-data/bigdata-horse.html" />
     
 
     </head>
@@ -168,9 +168,9 @@
         
         
     
-        <li class="chapter " data-level="3.1" data-path="bigdata-shangguigu.html">
+        <li class="chapter " data-level="3.1" data-path="../big-data/bigdata-shangguigu.html">
             
-                <a href="bigdata-shangguigu.html">
+                <a href="../big-data/bigdata-shangguigu.html">
             
                     
                     大数据基础-尚硅谷
@@ -181,9 +181,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="3.2" data-path="bigdata-horse.html">
+        <li class="chapter " data-level="3.2" data-path="../big-data/bigdata-horse.html">
             
-                <a href="bigdata-horse.html">
+                <a href="../big-data/bigdata-horse.html">
             
                     
                     大数据-黑马
@@ -201,9 +201,9 @@
         
         
     
-        <li class="chapter " data-level="4.1" data-path="../css/layout-oneline.html">
+        <li class="chapter active" data-level="4.1" data-path="layout-oneline.html">
             
-                <a href="../css/layout-oneline.html">
+                <a href="layout-oneline.html">
             
                     
                     layout-oneline
@@ -214,9 +214,9 @@
             
         </li>
     
-        <li class="chapter " data-level="4.2" data-path="../css/css-weight.html">
+        <li class="chapter " data-level="4.2" data-path="css-weight.html">
             
-                <a href="../css/css-weight.html">
+                <a href="css-weight.html">
             
                     
                     CSS优先级
@@ -227,9 +227,9 @@
             
         </li>
     
-        <li class="chapter " data-level="4.3" data-path="../css/grid.html">
+        <li class="chapter " data-level="4.3" data-path="grid.html">
             
-                <a href="../css/grid.html">
+                <a href="grid.html">
             
                     
                     Grid布局
@@ -740,7 +740,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >大数据-黑马</a>
+        <a href=".." >layout-oneline</a>
     </h1>
 </div>
 
@@ -755,26 +755,89 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x5927;&#x6570;&#x636E;-&#x9ED1;&#x9A6C;">&#x5927;&#x6570;&#x636E;-&#x9ED1;&#x9A6C;</h1>
+                                <h1 id="layout-oneline">layout-oneline</h1>
+<h2 id="&#x7A7A;&#x95F4;&#x5C45;&#x4E2D;&#x5E03;&#x5C40;">&#x7A7A;&#x95F4;&#x5C45;&#x4E2D;&#x5E03;&#x5C40;</h2>
+<blockquote>
+<p>&#x9879;&#x76EE;&#x5728;&#x5BB9;&#x5668;&#x7684;&#x4E2D;&#x5FC3;&#x4F4D;&#x7F6E;</p>
+</blockquote>
+<p><img src="https://www.wangbase.com/blogimg/asset/202008/bg2020080703.jpg" alt="&#x7A7A;&#x95F4;&#x5C45;&#x4E2D;"></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+    <span class="hljs-attribute">display</span>: grid;
+    <span class="hljs-attribute">place-items</span>: center;
+}
+</code></pre>
+<h2 id="&#x5E76;&#x5217;&#x5F0F;&#x5E03;&#x5C40;">&#x5E76;&#x5217;&#x5F0F;&#x5E03;&#x5C40;</h2>
+<blockquote>
+<p>&#x591A;&#x4E2A;&#x9879;&#x76EE;&#x5E76;&#x5217;&#xFF0C;&#x9879;&#x76EE;&#x5BBD;&#x5EA6;&#x4E0D;&#x591F;&#xFF0C;&#x5C31;&#x81EA;&#x52A8;&#x6298;&#x884C;</p>
+</blockquote>
+<p><img src="https://www.wangbase.com/blogimg/asset/202008/bg2020080706.jpg" alt=""></p>
+<p><img src="https://www.wangbase.com/blogimg/asset/202008/bg2020080707.jpg" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+    <span class="hljs-attribute">display</span>: flex;
+    <span class="hljs-attribute">flex-wrap</span>: wrap;
+    <span class="hljs-attribute">justify-content</span>: center;
+}
+<span class="hljs-selector-class">.item</span>{
+   <span class="hljs-attribute">flex</span>: <span class="hljs-number">0</span> <span class="hljs-number">1</span> <span class="hljs-number">150px</span>;
+   <span class="hljs-attribute">margin</span>: <span class="hljs-number">5px</span>;
+}
+</code></pre>
 <ul>
-<li>&#x805A;&#x5408; (Aggregation) &#x2013; &#x641C;&#x7D22;&#x3001;&#x5408;&#x5E76;&#x3001;&#x663E;&#x793A;&#x6570;&#x636E;&#x7684;&#x8FC7;&#x7A0B;</li>
-<li>&#x5206;&#x7C7B;&#x5206;&#x6790; (Classification analysis) &#x2013; &#x4ECE;&#x6570;&#x636E;&#x4E2D;&#x83B7;&#x5F97;&#x91CD;&#x8981;&#x7684;&#x76F8;&#x5173;&#x6027;&#x4FE1;&#x606F;&#x7684;&#x7CFB;&#x7EDF;&#x5316;&#x8FC7;&#x7A0B;; &#x8FD9;&#x7C7B;&#x6570;&#x636E;&#x4E5F;&#x88AB;&#x79F0;&#x4E3A;&#x5143;&#x6570;&#x636E;(meta data),&#x662F;&#x63CF;&#x8FF0;&#x6570;&#x636E;&#x7684;&#x6570;&#x636E;</li>
-<li>&#x4E91;&#x8BA1;&#x7B97; (Cloud computing) &#x2013; &#x6784;&#x5EFA;&#x5728;&#x7F51;&#x7EDC;&#x4E0A;&#x7684;&#x5206;&#x5E03;&#x5F0F;&#x8BA1;&#x7B97;&#x7CFB;&#x7EDF;&#xFF0C;&#x6570;&#x636E;&#x662F;&#x5B58;&#x50A8;&#x4E8E;&#x673A;&#x623F;&#x5916;&#x7684;&#xFF08;&#x5373;&#x4E91;&#x7AEF;&#xFF09;</li>
-<li>&#x805A;&#x7C7B;&#x5206;&#x6790; (Clustering analysis) &#x2013; &#x5B83;&#x662F;&#x5C06;&#x76F8;&#x4F3C;&#x7684;&#x5BF9;&#x8C61;&#x805A;&#x5408;&#x5728;&#x4E00;&#x8D77;&#xFF0C;&#x6BCF;&#x7C7B;&#x76F8;&#x4F3C;&#x7684;&#x5BF9;&#x8C61;&#x7EC4;&#x5408;&#x6210;&#x4E00;&#x4E2A;&#x805A;&#x7C7B;(&#x4E5F;&#x53EB;&#x4F5C;&#x7C07;)&#x7684;&#x8FC7;&#x7A0B;&#x3002;&#x8FD9;&#x79CD;&#x5206;&#x6790;&#x65B9;&#x6CD5;&#x7684;&#x76EE;&#x7684;&#x5728;&#x4E8E;&#x5206;&#x6790;&#x6570;&#x636E;&#x95F4;&#x7684;&#x5DEE;&#x5F02;&#x548C;&#x76F8;&#x4F3C;&#x6027;</li>
-<li>&#x590D;&#x6742;&#x7ED3;&#x6784;&#x7684;&#x6570;&#x636E; (Complex structured data) &#x2013; &#x7531;&#x4E24;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x590D;&#x6742;&#x800C;&#x76F8;&#x4E92;&#x5173;&#x8054;&#x90E8;&#x5206;&#x7EC4;&#x6210;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x8FD9;&#x7C7B;&#x6570;&#x636E;&#x4E0D;&#x80FD;&#x7B80;&#x5355;&#x5730;&#x7531;&#x7ED3;&#x6784;&#x5316;&#x67E5;&#x8BE2;&#x8BED;&#x8A00;&#x6216;&#x5DE5;&#x5177;(SQL)&#x89E3;&#x6790;</li>
-<li>&#x5E76;&#x53D1; (Concurrency) &#x2013; &#x540C;&#x65F6;&#x6267;&#x884C;&#x591A;&#x4E2A;&#x4EFB;&#x52A1;&#x6216;&#x8FD0;&#x884C;&#x591A;&#x4E2A;&#x8FDB;&#x7A0B;</li>
-<li>&#x4EEA;&#x8868;&#x677F; (Dashboard) &#x2013; &#x4F7F;&#x7528;&#x7B97;&#x6CD5;&#x5206;&#x6790;&#x6570;&#x636E;&#xFF0C;&#x5E76;&#x5C06;&#x7ED3;&#x679C;&#x7528;&#x56FE;&#x8868;&#x65B9;&#x5F0F;&#x663E;&#x793A;&#x4E8E;&#x4EEA;&#x8868;&#x677F;&#x4E2D;</li>
-<li>&#x6570;&#x636E;&#x805A;&#x5408;&#x5DE5;&#x5177; (Data aggregation tools) &#x2013; &#x5C06;&#x5206;&#x6563;&#x4E8E;&#x4F17;&#x591A;&#x6570;&#x636E;&#x6E90;&#x7684;&#x6570;&#x636E;&#x8F6C;&#x5316;&#x6210;&#x4E00;&#x4E2A;&#x5168;&#x65B0;&#x6570;&#x636E;&#x6E90;&#x7684;&#x8FC7;&#x7A0B;</li>
-<li>&#x63D0;&#x53D6;-&#x8F6C;&#x6362;-&#x52A0;&#x8F7D; (ETL: Extract, Transform and Load) &#x2013; &#x662F;&#x4E00;&#x79CD;&#x7528;&#x4E8E;&#x6570;&#x636E;&#x5E93;&#x6216;&#x8005;&#x6570;&#x636E;&#x4ED3;&#x5E93;&#x7684;&#x5904;&#x7406;&#x8FC7;&#x7A0B;&#x3002;&#x5373;&#x4ECE;&#x5404;&#x79CD;&#x4E0D;&#x540C;&#x7684;&#x6570;&#x636E;&#x6E90;&#x63D0;&#x53D6;(E)&#x6570;&#x636E;&#xFF0C;&#x5E76;&#x8F6C;&#x6362;(T)&#x6210;&#x80FD;&#x6EE1;&#x8DB3;&#x4E1A;&#x52A1;&#x9700;&#x8981;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x6700;&#x540E;&#x5C06;&#x5176;&#x52A0;&#x8F7D;(L)&#x5230;&#x6570;&#x636E;&#x5E93;</li>
-<li>&#x6545;&#x969C;&#x5207;&#x6362; (Failover) &#x2013; &#x5F53;&#x7CFB;&#x7EDF;&#x4E2D;&#x67D0;&#x4E2A;&#x670D;&#x52A1;&#x5668;&#x53D1;&#x751F;&#x6545;&#x969C;&#x65F6;&#xFF0C;&#x80FD;&#x81EA;&#x52A8;&#x5730;&#x5C06;&#x8FD0;&#x884C;&#x4EFB;&#x52A1;&#x5207;&#x6362;&#x5230;&#x53E6;&#x4E00;&#x4E2A;&#x53EF;&#x7528;&#x670D;&#x52A1;&#x5668;&#x6216;&#x8282;&#x70B9;&#x4E0A;</li>
-<li>&#x5BB9;&#x9519;&#x8BBE;&#x8BA1; (Fault-tolerant design) &#x2013; &#x4E00;&#x4E2A;&#x652F;&#x6301;&#x5BB9;&#x9519;&#x8BBE;&#x8BA1;&#x7684;&#x7CFB;&#x7EDF;&#x5E94;&#x8BE5;&#x80FD;&#x591F;&#x505A;&#x5230;&#x5F53;&#x67D0;&#x4E00;&#x90E8;&#x5206;&#x51FA;&#x73B0;&#x6545;&#x969C;&#x4E5F;&#x80FD;&#x7EE7;&#x7EED;&#x8FD0;&#x884C;</li>
-<li>&#x975E;&#x5173;&#x7CFB;&#x578B;&#x6570;&#x636E;&#x5E93;(NoSQL)&#xFF1A;&#x8FD9;&#x4E2A;&#x8BCD;&#x542C;&#x8D77;&#x6765;&#x51E0;&#x4E4E;&#x5C31;&#x662F;&#x300C;SQL&#xFF0C;&#x7ED3;&#x6784;&#x5316;&#x67E5;&#x8BE2;&#x8BED;&#x8A00;&#x300D;&#x7684;&#x53CD;&#x4E49;&#x8BCD;&#xFF0C;SQL &#x662F;&#x4F20;&#x7EDF;&#x7684;&#x5173;&#x7CFB;&#x578B;&#x6570;&#x636E;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;(RDBMS)&#x5FC5;&#x9700;&#x7684;&#xFF0C;&#x4F46;&#x662F;  NOSQL &#x5B9E;&#x9645;&#x4E0A;&#x6307;&#x7684;&#x662F;&#x300C;&#x4E0D;&#x6B62; SQL&#x300D;&#x3002;NoSQL   &#x5B9E;&#x9645;&#x4E0A;&#x6307;&#x7684;&#x662F;&#x90A3;&#x4E9B;&#x88AB;&#x8BBE;&#x8BA1;&#x6765;&#x5904;&#x7406;&#x6CA1;&#x6709;&#x7ED3;&#x6784;(&#x6216;&#x8005;&#x6CA1;&#x6709;&#x300C;schema&#x300D;&#xFF0C;&#x7EB2;&#x8981;)&#x7684;&#x5927;&#x91CF;&#x6570;&#x636E;&#x7684;&#x6570;&#x636E;&#x5E93;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#x3002;NoSQL &#x9002;&#x5408;&#x5927;&#x6570;&#x636E;&#x7CFB;&#x7EDF;&#xFF0C;&#x56E0;&#x4E3A;&#x5927;&#x89C4;&#x6A21;&#x7684;&#x975E;&#x7ED3;&#x6784;&#x5316;&#x6570;&#x636E;&#x5E93;&#x9700;&#x8981;  NoSQL &#x7684;&#x8FD9;&#x79CD;&#x7075;&#x6D3B;&#x6027;&#x548C;&#x5206;&#x5E03;&#x5F0F;&#x4F18;&#x5148;&#x7684;&#x7279;&#x70B9;&#x3002;</li>
-<li>Spark(Apache Spark)&#xFF1A;Apache Spark  &#x662F;&#x4E00;&#x4E2A;&#x5FEB;&#x901F;&#x7684;&#x5185;&#x5B58;&#x6570;&#x636E;&#x5904;&#x7406;&#x5F15;&#x64CE;&#xFF0C;&#x5B83;&#x80FD;&#x591F;&#x6709;&#x6548;&#x5730;&#x6267;&#x884C;&#x90A3;&#x4E9B;&#x9700;&#x8981;&#x8FED;&#x4EE3;&#x8BBF;&#x95EE;&#x6570;&#x636E;&#x5E93;&#x7684;&#x6D41;&#x5904;&#x7406;&#x3001;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x4EE5;&#x53CA; SQL &#x8D1F;&#x8F7D;&#x3002;Spark &#x901A;&#x5E38;&#x4F1A;&#x6BD4;&#x6211;&#x4EEC;&#x524D;&#x9762;&#x8BA8;&#x8BBA;&#x8FC7;&#x7684;  MapReduce &#x5FEB;&#x597D;&#x591A;&#x3002;</li>
-<li>&#x6D41;&#x5904;&#x7406;(Stream  processing)&#xFF1A;&#x6D41;&#x5904;&#x7406;&#x88AB;&#x8BBE;&#x8BA1;&#x6765;&#x7528;&#x4E8E;&#x6301;&#x7EED;&#x5730;&#x8FDB;&#x884C;&#x6D41;&#x6570;&#x636E;&#x7684;&#x5904;&#x7406;&#x3002;&#x4E0E;&#x6D41;&#x5206;&#x6790;&#x6280;&#x672F;(&#x6307;&#x7684;&#x662F;&#x80FD;&#x591F;&#x6301;&#x7EED;&#x5730;&#x8BA1;&#x7B97;&#x6570;&#x503C;&#x548C;&#x7EDF;&#x8BA1;&#x5206;&#x6790;&#x7684;&#x80FD;&#x529B;)&#x7ED3;&#x5408;&#x8D77;&#x6765;&#xFF0C;&#x6D41;&#x5904;&#x7406;&#x65B9;&#x6CD5;&#x7279;&#x522B;&#x80FD;&#x591F;&#x9488;&#x5BF9;&#x5927;&#x89C4;&#x6A21;&#x6570;&#x636E;&#x7684;&#x5B9E;&#x65F6;&#x5904;&#x7406;&#x3002;</li>
-<li>&#x8D1F;&#x8F7D;&#x5747;&#x8861;(Load balancing)&#xFF1A;&#x4E3A;&#x4E86;&#x5B9E;&#x73B0;&#x6700;&#x4F73;&#x7684;&#x7ED3;&#x679C;&#x548C;&#x5BF9;&#x7CFB;&#x7EDF;&#x7684;&#x5229;&#x7528;&#xFF0C;&#x5C06;&#x8D1F;&#x8F7D;&#x5206;&#x53D1;&#x7ED9;&#x591A;&#x4E2A;&#x8BA1;&#x7B97;&#x673A;&#x6216;&#x8005;&#x670D;&#x52A1;&#x5668;&#x3002;</li>
+<li><code>flex</code>&#x5C5E;&#x6027;&#x662F;<code>flex-grow</code>&#x3001;<code>flex-shrink</code>&#x3001;<code>flex-basis</code>&#x8FD9;&#x4E09;&#x4E2A;&#x5C5E;&#x6027;&#x7684;&#x7B80;&#x5199;&#x5F62;&#x5F0F;&#x3002;<ul>
+<li><code>flex-grow</code>&#xFF1A;&#x6307;&#x5B9A;&#x5982;&#x679C;&#x6709;&#x591A;&#x4F59;&#x5BBD;&#x5EA6;&#xFF0C;&#x9879;&#x76EE;&#x662F;&#x5426;&#x53EF;&#x4EE5;&#x6269;&#x5927;&#x3002;</li>
+<li><code>flex-shrink</code>&#xFF1A;&#x6307;&#x5B9A;&#x5982;&#x679C;&#x5BBD;&#x5EA6;&#x4E0D;&#x8DB3;&#xFF0C;&#x9879;&#x76EE;&#x662F;&#x5426;&#x53EF;&#x4EE5;&#x7F29;&#x5C0F;&#x3002;</li>
+<li><code>flex-basis</code>&#xFF1A;&#x9879;&#x76EE;&#x7684;&#x521D;&#x59CB;&#x5BBD;&#x5EA6;&#x3002;</li>
 </ul>
-<h2 id="&#x5E73;&#x53F0;&#x3001;&#x6D41;&#x91CF;&#x3001;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5173;&#x7CFB;">&#x5E73;&#x53F0;&#x3001;&#x6D41;&#x91CF;&#x3001;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#x7684;&#x5173;&#x7CFB;</h2>
-<p>&#x5E73;&#x53F0;&#xFF1A;&#x901A;&#x8FC7;&#x63D0;&#x4F9B;&#x670D;&#x52A1;&#xFF08;&#x5F00;&#x5E97;&#xFF0C;&#x652F;&#x4ED8;&#xFF0C;&#x53D1;&#x8D27;&#xFF0C;&#x63A8;&#x8350;&#xFF09;&#x6536;&#x8D39; &#x6D41;&#x91CF;&#xFF1A;&#x5F53;&#x5929;&#x8BBF;&#x95EE;&#x4E86;&#x591A;&#x5C11;&#x7528;&#x6237; &#x53BB;&#x4E2D;&#x5FC3;&#x5316;&#xFF1A;&#x672C;&#x8D28;&#xFF1A;&#x8BA9;&#x5E73;&#x53F0;&#x8FDB;&#x884C;&#x5408;&#x7406;&#x5206;&#x6D41;&#x3002;&#x5408;&#x7406;&#x5206;&#x53D1;&#x6D41;&#x91CF;&#x5C31;&#x662F;&#x53BB;&#x4E2D;&#x5FC3;&#x5316;</p>
+</li>
+<li><p>&#x5982;&#x679C;&#x5199;&#x6210;<code>flex: 1 1 150px;</code>&#xFF0C;&#x5C31;&#x8868;&#x793A;&#x9879;&#x76EE;&#x59CB;&#x7EC8;&#x4F1A;&#x5360;&#x6EE1;&#x6240;&#x6709;&#x5BBD;&#x5EA6;&#x3002;</p>
+<p><img src="https://www.wangbase.com/blogimg/asset/202008/bg2020080711.jpg" alt=""></p>
+<p><img src="https://www.wangbase.com/blogimg/asset/202008/bg2020080710.jpg" alt=""></p>
+</li>
+</ul>
+<h2 id="&#x4E24;&#x680F;&#x5F0F;&#x5E03;&#x5C40;">&#x4E24;&#x680F;&#x5F0F;&#x5E03;&#x5C40;</h2>
+<blockquote>
+<p>&#x4E00;&#x4E2A;&#x8FB9;&#x680F;&#xFF0C;&#x4E00;&#x4E2A;&#x4E3B;&#x680F;</p>
+</blockquote>
+<p><img src="https://www.wangbase.com/blogimg/asset/202008/bg2020080712.jpg" alt=""></p>
+<p>&#x5B9E;&#x73B0;&#x8FB9;&#x680F;&#x56FA;&#x5B9A;&#xFF0C;&#x4E3B;&#x680F;&#x81EA;&#x9002;&#x5E94;&#x3002;</p>
+<pre><code class="lang-css">.container {
+    display: grid;
+    grid-template-columns: minmax(150px, 25%) 1fr;
+}
+// &#x7B2C;&#x4E8C;&#x5217;&#x4E3A;1fr&#xFF0C;&#x5373;&#x6240;&#x6709;&#x5269;&#x4F59;&#x5BBD;&#x5EA6;&#x3002;
+</code></pre>
+<h2 id="&#x4E09;&#x660E;&#x6CBB;&#x5E03;&#x5C40;">&#x4E09;&#x660E;&#x6CBB;&#x5E03;&#x5C40;</h2>
+<blockquote>
+<p>&#x5782;&#x76F4;&#x65B9;&#x5411;&#x4E0A;&#xFF0C;&#x9875;&#x9762;&#x5206;&#x4E3A;&#xFF1A;&#x9875;&#x7709;&#x3001;&#x5185;&#x5BB9;&#x533A;&#x3001;&#x9875;&#x811A; &#x4E09;&#x90E8;&#x5206;</p>
+<p>&#x8FD9;&#x4E2A;&#x5E03;&#x5C40;&#x4F1A;&#x6839;&#x636E;&#x8BBE;&#x5907;&#x5BBD;&#x5EA6;&#xFF0C;&#x81EA;&#x52A8;&#x9002;&#x5E94;&#xFF0C;&#x5E76;&#x4E14;&#x4E0D;&#x7BA1;&#x5185;&#x5BB9;&#x533A;&#x6709;&#x591A;&#x5C11;&#x5185;&#x5BB9;&#xFF0C;&#x9875;&#x811A;&#x59CB;&#x7EC8;&#x5728;&#x5BB9;&#x5668;&#x5E95;&#x90E8;&#xFF08;&#x7C98;&#x6027;&#x9875;&#x811A;&#xFF09;&#x3002;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#xFF0C;&#x8FD9;&#x4E2A;&#x5E03;&#x5C40;&#x603B;&#x662F;&#x4F1A;&#x5360;&#x6EE1;&#x6574;&#x4E2A;&#x9875;&#x9762;&#x9AD8;&#x5EA6;&#x3002;</p>
+</blockquote>
+<p><img src="https://www.wangbase.com/blogimg/asset/202008/bg2020080715.jpg" alt=""></p>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+    <span class="hljs-attribute">display</span>: grid;
+    <span class="hljs-attribute">grid-template-rows</span>: auto <span class="hljs-number">1</span>fr auto;
+}
+</code></pre>
+<p><code>grid-template-rows</code>&#x90A3;&#x4E00;&#x884C;&#xFF0C;&#x6307;&#x5B9A;&#x5782;&#x76F4;&#x9AD8;&#x5EA6;&#x600E;&#x4E48;&#x5212;&#x5206;&#xFF0C;&#x8FD9;&#x91CC;&#x662F;&#x4ECE;&#x4E0A;&#x5230;&#x4E0B;&#x5206;&#x6210;&#x4E09;&#x90E8;&#x5206;&#x3002;&#x7B2C;&#x4E00;&#x90E8;&#x5206;&#xFF08;&#x9875;&#x7709;&#xFF09;&#x548C;&#x7B2C;&#x4E09;&#x90E8;&#x5206;&#xFF08;&#x9875;&#x811A;&#xFF09;&#x7684;&#x9AD8;&#x5EA6;&#x90FD;&#x4E3A;<code>auto</code>&#xFF0C;&#x5373;&#x672C;&#x6765;&#x7684;&#x5185;&#x5BB9;&#x9AD8;&#x5EA6;&#xFF1B;&#x7B2C;&#x4E8C;&#x90E8;&#x5206;&#xFF08;&#x5185;&#x5BB9;&#x533A;&#xFF09;&#x7684;&#x9AD8;&#x5EA6;&#x4E3A;<code>1fr</code>&#xFF0C;&#x5373;&#x5269;&#x4F59;&#x7684;&#x6240;&#x6709;&#x9AD8;&#x5EA6;&#xFF0C;&#x8FD9;&#x53EF;&#x4EE5;&#x4FDD;&#x8BC1;&#x9875;&#x811A;&#x59CB;&#x7EC8;&#x5728;&#x5BB9;&#x5668;&#x7684;&#x5E95;&#x90E8;&#x3002;</p>
+<h2 id="&#x5723;&#x676F;&#x5E03;&#x5C40;">&#x5723;&#x676F;&#x5E03;&#x5C40;</h2>
+<blockquote>
+<p>&#x5723;&#x676F;&#x5E03;&#x5C40;&#x662F;&#x6700;&#x5E38;&#x7528;&#x7684;&#x5E03;&#x5C40;&#xFF0C;&#x6240;&#x4EE5;&#x88AB;&#x6BD4;&#x55BB;&#x4E3A;&#x5723;&#x676F;&#x3002;&#x5B83;&#x5C06;&#x9875;&#x9762;&#x5206;&#x6210;&#x4E94;&#x4E2A;&#x90E8;&#x5206;&#xFF0C;&#x9664;&#x4E86;&#x9875;&#x7709;&#x548C;&#x9875;&#x811A;&#xFF0C;&#x5185;&#x5BB9;&#x533A;&#x5206;&#x6210;&#x5DE6;&#x8FB9;&#x680F;&#x3001;&#x4E3B;&#x680F;&#x3001;&#x53F3;&#x8FB9;&#x680F;&#x3002;</p>
+<p>&#x8FD9;&#x91CC;&#x7684;&#x5B9E;&#x73B0;&#x662F;&#xFF0C;&#x4E0D;&#x7BA1;&#x9875;&#x9762;&#x5BBD;&#x5EA6;&#xFF0C;&#x5185;&#x5BB9;&#x533A;&#x59CB;&#x7EC8;&#x5206;&#x6210;&#x4E09;&#x680F;&#x3002;&#x5982;&#x679C;&#x5BBD;&#x5EA6;&#x592A;&#x7A84;&#xFF0C;&#x4E3B;&#x680F;&#x548C;&#x53F3;&#x8FB9;&#x680F;&#x4F1A;&#x770B;&#x4E0D;&#x5230;&#x3002;&#x5982;&#x679C;&#x60F3;&#x5C06;&#x8FD9;&#x4E09;&#x680F;&#x6539;&#x6210;&#x5C0F;&#x5C4F;&#x5E55;&#x81EA;&#x52A8;&#x5806;&#x53E0;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#x5E76;&#x5217;&#x5F0F;&#x5E03;&#x5C40;&#x3002;</p>
+</blockquote>
+<p><img src="https://www.wangbase.com/blogimg/asset/202008/bg2020080717.jpg" alt=""></p>
+<pre><code class="lang-markup">&lt;div class=&quot;container&quot;&gt;
+    &lt;header/&gt;
+    &lt;div/&gt;
+    &lt;main/&gt;
+    &lt;div/&gt;
+    &lt;footer/&gt;
+&lt;/div&gt;
+</code></pre>
+<pre><code class="lang-css"><span class="hljs-selector-class">.container</span> {
+    <span class="hljs-attribute">display</span>: grid;
+    <span class="hljs-attribute">grid-template</span>: auto <span class="hljs-number">1</span>fr auto / auto <span class="hljs-number">1</span>fr auto;
+}
+</code></pre>
+<p><code>grid-template-rows</code>&#x548C;<code>grid-template-columns</code>&#x90FD;&#x662F;<code>auto 1fr auto</code>&#xFF0C;&#x5C31;&#x8868;&#x793A;&#x9875;&#x9762;&#x5728;&#x5782;&#x76F4;&#x65B9;&#x5411;&#x548C;&#x6C34;&#x5E73;&#x65B9;&#x5411;&#x4E0A;&#xFF0C;&#x90FD;&#x5206;&#x6210;&#x4E09;&#x4E2A;&#x90E8;&#x5206;&#x3002;&#x7B2C;&#x4E00;&#x90E8;&#x5206;&#xFF08;&#x9875;&#x7709;&#x548C;&#x5DE6;&#x8FB9;&#x680F;&#xFF09;&#x548C;&#x7B2C;&#x4E09;&#x90E8;&#x5206;&#xFF08;&#x9875;&#x811A;&#x548C;&#x53F3;&#x8FB9;&#x680F;&#xFF09;&#x90FD;&#x662F;&#x672C;&#x6765;&#x7684;&#x5185;&#x5BB9;&#x9AD8;&#x5EA6;&#xFF08;&#x6216;&#x5BBD;&#x5EA6;&#xFF09;&#xFF0C;&#x7B2C;&#x4E8C;&#x90E8;&#x5206;&#xFF08;&#x5185;&#x5BB9;&#x533A;&#x548C;&#x4E3B;&#x680F;&#xFF09;&#x5360;&#x6EE1;&#x5269;&#x4F59;&#x7684;&#x9AD8;&#x5EA6;&#xFF08;&#x6216;&#x5BBD;&#x5EA6;&#xFF09;&#x3002;</p>
 
                                 
                                 </section>
@@ -802,12 +865,12 @@
 
             
                 
-                <a href="bigdata-shangguigu.html" class="navigation navigation-prev " aria-label="Previous page: 大数据基础-尚硅谷">
+                <a href="../big-data/bigdata-horse.html" class="navigation navigation-prev " aria-label="Previous page: 大数据-黑马">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../css/layout-oneline.html" class="navigation navigation-next " aria-label="Next page: layout-oneline">
+                <a href="css-weight.html" class="navigation navigation-next " aria-label="Next page: CSS优先级">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -818,7 +881,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"大数据-黑马","level":"3.2","depth":1,"next":{"title":"layout-oneline","level":"4.1","depth":1,"path":"css/layout-oneline.md","ref":"css/layout-oneline.md","articles":[]},"previous":{"title":"大数据基础-尚硅谷","level":"3.1","depth":1,"path":"big-data/bigdata-shangguigu.md","ref":"big-data/bigdata-shangguigu.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"big-data/bigdata-horse.md","mtime":"2021-07-13T03:15:13.676Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-07-19T07:26:16.559Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"layout-oneline","level":"4.1","depth":1,"next":{"title":"CSS优先级","level":"4.2","depth":1,"path":"css/css-weight.md","ref":"css/css-weight.md","articles":[]},"previous":{"title":"大数据-黑马","level":"3.2","depth":1,"path":"big-data/bigdata-horse.md","ref":"big-data/bigdata-horse.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"css/layout-oneline.md","mtime":"2021-07-13T06:31:50.472Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-07-19T07:26:16.559Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

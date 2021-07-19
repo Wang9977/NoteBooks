@@ -66,3 +66,7 @@
 * [WebGL](webgl.md)
 * [可视化调研](ke-shi-hua-tiao-yan.md)
 
+## network
+
+* [域名解析类型](network/host-type.md)
+
